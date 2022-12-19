@@ -79,7 +79,7 @@
                 <!-- Validation messages to be displayed on required, minlength and maxlength -->
                 <p class="help-block" ng-show="itemForm.description.$error.required">Add Description.</p>
                 <p class="help-block" ng-show="itemForm.description.$error.minlength">Description must be at least 5 characters long.</p>
-                <p class="help-block" ng-show="itemForm.description.$error.maxlength">Description cannot be longer than 100 characters.</p>
+                <p class="help-block" ng-show="itemForm.description.$error.maxlength">Description can't be longer than 100 characters.</p>
             </div>
 
             <div class="form-group" ng-class="{'has-error' : itemForm.done.$invalid && itemForm.done.$dirty}">
